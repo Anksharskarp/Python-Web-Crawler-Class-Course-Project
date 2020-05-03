@@ -4,8 +4,9 @@ EasyFunCoding
 Python Web Crawler Class
 Homework #5
 
-                                     **Part 1:
-                                  Course Project**
+Part #1:
+Course Project
+
 Every student of the course will design and implement a project on a web crawling/scraping.
 Below are a few examples:
 1. Write a project to collect corona19 virus information from the department of health of
