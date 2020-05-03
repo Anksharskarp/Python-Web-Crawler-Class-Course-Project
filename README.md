@@ -9,7 +9,7 @@ Course Project
 
 Every student of the course will design and implement a project on a web crawling/scraping.
 Below are a few examples:
-1. Write a project to collect corona19 virus information from the department of health of
+1. Write a project to collect COVID-19 virus information from the Department of Health of
 each state and show the total number of positive cases and deaths in real time.
 2. Write a program to crawl news websites and show the latest news on certain topics.
 3. Collect information from game websites and show the most popular games, or news and
