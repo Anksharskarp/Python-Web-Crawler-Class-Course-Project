@@ -29,3 +29,6 @@ Timeline:
 websites you will crawl and scrape. What information you will retrieve/analyze.
 5/15 – 5/29 Implement on your project
 6/5. Finish the project and do a project presentation and demonstration.
+
+
+This repo will include my course project, which is a news website web crawler. It will scrape the latest news headlines from popular websites such as the New York Times, Google News, the Huffington Post, etc. and gather them into a single .csv file. It can be run multiple times to be updated regularly. 
