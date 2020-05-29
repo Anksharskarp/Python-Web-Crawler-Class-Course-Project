@@ -1,8 +1,8 @@
-
 from bs4 import BeautifulSoup
 import urllib
 import requests
 import pandas as pd
+from flask import Flask
 
 url = "https://carmelclaylibrary.org"
 
@@ -37,3 +37,13 @@ eventData = pd.DataFrame(
     )
 print(eventData)
 eventData.to_csv('CCPL_Events_Info.csv')
+
+
+app = Flask(__name__)
+@app.route('/')
+def CCPL_Events(): # don't forget to redefine every new return command!
+    items = pandas.read_csv('/Users/shuningliu/Documents/GitHub/Class-8/forsaleItem.csv') #Click on the file path and tap on 'copy filename as pathname'.
+    return CCPL_Events_Info.to_html()
+
+if __name__ == '__main__':
+    app.run()
