@@ -3,6 +3,8 @@ import urllib
 import requests
 import pandas as pd
 from flask import Flask, render_template
+import tablib
+import os
 
 url = "https://carmelclaylibrary.org"
 
@@ -44,12 +46,11 @@ except:
 
 
 app = Flask(__name__)
+
 @app.route('/')
 def CCPL_Events(): # don't forget to redefine every new return command!
     items = pandas.read_csv('/Users/shuningliu/Documents/GitHub/Python-Web-Crawler-Class-Course-Project/CCPL_Events_Info.csv') #Click on the file path and tap on 'copy filename as pathname'.
     return CCPL_Events_Info.to_html()
 
 if __name__ == '__main__':
-    app.run()
-if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(debug=True, use_reloader=True)
